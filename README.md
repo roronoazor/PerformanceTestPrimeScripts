@@ -1,5 +1,4 @@
----
-# Performance Testing using Prime Number Generation
+
 
 # Prime Number Generation
 
@@ -53,9 +52,6 @@ node generate_primes.js
 
 These scripts are designed for educational purposes to demonstrate how prime number generation can be implemented and how file I/O is handled in different programming languages. They have not been optimized for high performance or for handling the nuances of large-scale prime number generation.
 
-
-Certainly! I'll complete and rephrase your markdown file to provide clear instructions on how to run the benchmark plot script. The instructions will include steps for creating a virtual environment and running the script on Windows, Mac, and Linux.
-
 ---
 
 ## To View the Performance Visually
@@ -67,9 +63,7 @@ To visually compare the performance of the scripts, a Python script named `bench
 - Python installed on your system.
 - `pip` for installing Python packages.
 
-### Setup and
-
-Run Instructions
+### Setup and Run Instructions
 
 1. **Create a Virtual Environment:**
 
@@ -87,7 +81,7 @@ Run Instructions
    source venv/bin/activate
    ```
 
-   This step creates a virtual environment named `venv` and activates it. A virtual environment is a self-contained directory that contains a Python installation for a particular version of Python, plus a number of additional packages.
+   This step creates a virtual environment named `venv` and activates it.
 
 2. **Install Required Packages:**
 
@@ -96,6 +90,8 @@ Run Instructions
    ```bash
    pip install -r requirements.txt
    ```
+
+
 
    This command installs all the dependencies listed in `requirements.txt`.
 
@@ -121,4 +117,5 @@ The script will generate and save an image named `performance_comparison.png` in
 
 ---
 
-**Note**: Make sure to replace the placeholder paths and commands with the actual ones according to your project's structure and requirements. This template assumes a standard setup and might need adjustments to fit your specific use case.
+**Note**: Ensure you replace the placeholder paths and commands with the actual ones according to your project's structure and requirements. This template assumes a standard setup and might need adjustments to fit your specific use case.
+```
