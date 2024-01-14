@@ -16,14 +16,18 @@ def is_prime(n):
     return True
 
 def generate_primes(filename, limit):
+    primes = []
     num = 2
     count = 0
-    with open(filename, 'w') as file:
-        while count < limit:
+    while count < limit:
             if is_prime(num):
-                file.write(f"{num}\n")
+                primes.append(str(num))
                 count += 1
             num += 1
+
+    with open(filename, 'w') as file:
+        file.write("\n".join(primes))
+        
 
 # Default limit
 limit = 10000
